@@ -6,8 +6,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class JsonTest {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-
 
         String json = "{\"name\":\"John\",\"age\":30,\"address\":{\"street\":\"123 Main St\",\"city\":\"New York\"},\"hobbies\":[\"Reading\",\"Gaming\"]}";
 
@@ -15,7 +13,6 @@ public class JsonTest {
       
         try {
             JsonNode rootNode = objectMapper.readTree(json);
-
 
             // Accessing top-level fields
             String name = rootNode.get("name").asText();
