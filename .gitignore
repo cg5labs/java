@@ -1,6 +1,6 @@
 
 # any paths following target/*
-helloworldi/target/
+helloworld/target/
 
 # Compiled class file
 *.class
