@@ -9,7 +9,7 @@
             <directory>${project.basedir}/src/main/resources/config</directory>
             <outputDirectory>/config</outputDirectory>
             <includes>
-                <include>app.properties</include>
+                <include>*.properties</include>
             </includes>
         </fileSet>
         <fileSet>
