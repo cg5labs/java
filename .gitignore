@@ -3,6 +3,8 @@
 helloworld/target/
 json-test/target/
 
+json-test/dependency-reduced-pom.xml
+
 # Compiled class file
 *.class
 
