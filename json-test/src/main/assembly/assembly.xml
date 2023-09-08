@@ -1,0 +1,23 @@
+<assembly>
+    <id>my-app-assembly</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>${project.basedir}/src/main/resources/config</directory>
+            <outputDirectory>/config</outputDirectory>
+            <includes>
+                <include>app.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/src/main/resources/sample_json</directory>
+            <outputDirectory>/json</outputDirectory>
+            <includes>
+                <include>*.json</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>
