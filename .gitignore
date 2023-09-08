@@ -1,6 +1,7 @@
 
 # any paths following target/*
 helloworld/target/
+jsontest/target/
 
 # Compiled class file
 *.class
