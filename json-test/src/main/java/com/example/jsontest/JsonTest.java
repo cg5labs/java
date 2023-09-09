@@ -81,7 +81,6 @@ public class JsonTest {
                 System.out.println("Element is not an array!");
             }
 
-
       } catch (Exception e) {
         e.printStackTrace();
       }

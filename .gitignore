@@ -2,6 +2,7 @@
 # any paths following target/*
 helloworld/target/
 json-test/target/
+plants/target/
 
 json-test/dependency-reduced-pom.xml
 
