@@ -3,6 +3,7 @@
 helloworld/target/
 json-test/target/
 plants/target/
+parking/target/
 
 json-test/dependency-reduced-pom.xml
 
