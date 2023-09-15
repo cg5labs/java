@@ -23,6 +23,22 @@ public class Greenhouse {
             System.out.println("Grows in region: " + region);
         }
 
+
+        // test if a String variable contains a boolean word (true/false)
+        String myBool = "false";
+
+
+        if ("true".equals(myBool) || "false".equals(myBool)) {
+            System.out.println("found boolean: "+ myBool);
+        } else {
+            System.out.println("boolean not found: " + myBool);
+        }
+
+
+        boolean test = Boolean.parseBoolean(myBool);
+
+        System.out.println(test);
+
     }
 }
 
